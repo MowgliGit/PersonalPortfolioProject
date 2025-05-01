@@ -21,12 +21,12 @@ export default function Footer() {
             <button className={`${styles.btnFooterLink}`}>
               <i className={`fa-solid fa-envelope ${styles.navIcon}`}></i>
               <a
-                href="mailto:themowglicoder@gmail.com"
+                href="#"
                 className={styles.footerLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                themowglicoder@gmail.com
+                Email: available upon request
               </a>
             </button>
 

@@ -10,10 +10,13 @@ export default function Contact() {
         <section className={`${styles.sectionContact} `}>
           <Navigation />
           <div className={styles.containerContact}>
-           
             <div>
-              <h2 className={styles.headingSecondary}>Interested in working together?</h2>
-              <p className={styles.paragraphPrimaryContact}>Let’s build something amazing. Feel free to reach out to me via any of the following options.</p>
+              <h2 className={styles.headingSecondary}>
+                Interested in working together?
+              </h2>
+              <p className={styles.paragraphPrimaryContact}>
+                Let’s build something amazing.
+              </p>
             </div>
           </div>
         </section>

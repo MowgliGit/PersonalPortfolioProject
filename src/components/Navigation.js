@@ -61,40 +61,6 @@ export default function Navigation() {
               </li>
             ))}
           </ul>
-          <div className={styles.navigationIconsBox}>
-            {/* <a
-              href="https://www.upwork.com/freelancers/~01741f500be36f1cbe"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.footerLink}
-            >
-              <i className={`fa-brands fa-square-upwork ${styles.navIcon}`}></i>
-              Upwork
-            </a> */}
-            <a
-              href="https://github.com/MowgliGit/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <ion-icon
-                name="logo-github"
-                className={styles.navIcon}
-              ></ion-icon>
-            </a>
-
-            <a href="https://app.netlify.com/teams/marina-jovanova17/sites">
-              <ion-icon
-                name="person-circle-outline"
-                className={styles.navIcon}
-              ></ion-icon>
-            </a>
-            <a href="https://www.instagram.com/mowgli_codding/?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D">
-              <ion-icon
-                name="logo-instagram"
-                className={styles.navIcon}
-              ></ion-icon>
-            </a>
-          </div>
         </nav>
       )}
 
