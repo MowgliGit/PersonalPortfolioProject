@@ -19,21 +19,21 @@ const projectsData = [
     title: "Nonprofit Org",
     category: "React",
     image: "charito.png",
-    link: "https://mowgligit.github.io/charitoNonProfitOrg/",
+    link: "https://mowgligit.github.io/CharitoNonProfit/",
   },
   {
     id: 3,
     title: "E commerce",
     category: "React",
     image: "ecommerce.png",
-    link: "https://mowgligit.github.io/E-commerce-product/",
+    link: "https://mowgligit.github.io/Ecommerce-product/",
   },
   {
     id: 4,
     title: "Pouffe Stool",
     category: "JavaScript",
     image: "rattanchair.png",
-    link: "https://website-for-rattan-pouffe-stool-websi.netlify.app/",
+    link: "https://website-for-rattan-pouffe-stool.netlify.app/",
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ const projectsData = [
     title: "Booking app",
     category: "React",
     image: "hotel.png",
-    link: "https://mowgligit.github.io/website-for-hotel/",
+    link: "https://mowgligit.github.io/hotel-booking-webApp/",
   },
   {
     id: 9,
@@ -119,7 +119,7 @@ const projectsData = [
     title: "Blog",
     category: "Bootstrap",
     image: "blog.png",
-    link: "https://website-blogr.netlify.app/",
+    link: "https://website-blog-page.netlify.app/",
   },
 
   {
@@ -134,7 +134,7 @@ const projectsData = [
     title: "Mountain Event",
     category: "HTML&CSS",
     image: "mountain.png",
-    link: "https://websiteformountain.netlify.app/",
+    link: "https://website-for-mountain.netlify.app/",
   },
 ];
 

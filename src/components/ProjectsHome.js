@@ -21,7 +21,7 @@ const projectsCards = [
     id: 3,
     title: "Rattan Stool",
     image: "rattanchair.png",
-    link: "https://website-for-rattan-pouffe-stool-websi.netlify.app/",
+    link: "https://website-for-rattan-pouffe-stool.netlify.app/",
   },
 ];
 export default function ProjectsHome({ isMenuVisible, toggleMenu }) {

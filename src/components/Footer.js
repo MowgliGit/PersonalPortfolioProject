@@ -20,14 +20,9 @@ export default function Footer() {
           <div className={styles.footerBtnLinks}>
             <button className={`${styles.btnFooterLink}`}>
               <i className={`fa-solid fa-envelope ${styles.navIcon}`}></i>
-              <a
-                href="#"
-                className={styles.footerLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Email: available upon request
-              </a>
+              <span className={styles.footerLink}>
+                Contact after contract on Upwork
+              </span>
             </button>
 
             <div className={styles.contactBtns}>

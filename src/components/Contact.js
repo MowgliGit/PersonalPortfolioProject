@@ -11,11 +11,9 @@ export default function Contact() {
           <Navigation />
           <div className={styles.containerContact}>
             <div>
-              <h2 className={styles.headingSecondary}>
-                Interested in working together?
-              </h2>
+              <h2 className={styles.headingSecondary}>Let's work together!</h2>
               <p className={styles.paragraphPrimaryContact}>
-                Let’s build something amazing.
+                Please contact me through <strong>Upwork</strong>.
               </p>
             </div>
           </div>

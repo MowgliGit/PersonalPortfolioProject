@@ -61,6 +61,27 @@ export default function Navigation() {
               </li>
             ))}
           </ul>
+          <div className={styles.navigationIconsBox}>
+            <span>
+              <ion-icon
+                name="logo-github"
+                className={styles.navIcon}
+              ></ion-icon>
+            </span>
+
+            <span>
+              <ion-icon
+                name="person-circle-outline"
+                className={styles.navIcon}
+              ></ion-icon>
+            </span>
+            <span>
+              <ion-icon
+                name="logo-instagram"
+                className={styles.navIcon}
+              ></ion-icon>
+            </span>
+          </div>
         </nav>
       )}
 

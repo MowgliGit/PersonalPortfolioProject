@@ -21,10 +21,10 @@ const ProjectDetails = () => {
       title: "Nonprofit Organization",
       category: "React",
       image: "charito.png",
-      link: "https://mowgligit.github.io/charitoNonProfitOrg/",
+      link: "https://mowgligit.github.io/CharitoNonProfit/",
       description:
         "This website is a modern, fully responsive, and dynamic platform designed to showcase the mission and impact of organization. Key features include: Testimonial carousel, a sleek and interactive slider highlighting stories and feedback from beneficiaries and supporters. Modern card design and fully responsive layout.Contact form and integrated map allowing visitors to easily get in touch and locate the organization.",
-      githubRepo: "https://github.com/MowgliGit/charitoNonProfitOrg",
+      githubRepo: "https://github.com/MowgliGit/CharitoNonProfit",
       skills: ["Html", "Css", "React"],
     },
     {
@@ -32,10 +32,10 @@ const ProjectDetails = () => {
       title: "E commerce",
       category: "React",
       image: "ecommerce.png",
-      link: "https://mowgligit.github.io/E-commerce-product/",
+      link: "https://mowgligit.github.io/Ecommerce-product/",
       description:
         "A modern, fully responsive online store built for an enhanced shopping experience. Features include: Product gallery, clear, detailed product images and descriptions.Interactive cart, easy add/remove functionality with real-time updates. Responsive design, optimized for all devices, from desktop to mobile. User-friendly interface, simple navigation with categorized products.",
-      githubRepo: "https://github.com/MowgliGit/E-commerce-product",
+      githubRepo: "https://github.com/MowgliGit/Ecommerce-product",
       skills: ["Html", "Css", "React"],
     },
 
@@ -44,11 +44,11 @@ const ProjectDetails = () => {
       title: "Pouffe Stool",
       category: "JavaScript",
       image: "rattanchair.png",
-      link: "https://website-for-rattan-pouffe-stool-websi.netlify.app/",
+      link: "https://website-for-rattan-pouffe-stool.netlify.app/",
       description:
         "A modern, responsive e-commerce website dedicated to showcasing high-quality rattan pouffe stools. Features include: Product showcase detailed images and descriptions of each stool. Descriptive cards, pricing, testimonials, and key product details. Slide gallery an engaging visual experience. Responsive design seamless browsing on all devices. User-friendly shopping, easy navigation and a smooth checkout experience.",
       githubRepo:
-        "https://github.com/MowgliGit/website-for-rattan-pouffe-stool-website",
+        "https://github.com/MowgliGit/website-for-rattan-pouffe-stool",
       skills: ["Html", "Css", "JavaScript"],
     },
     {
@@ -90,10 +90,10 @@ const ProjectDetails = () => {
       title: "Booking App",
       category: "React",
       image: "hotel.png",
-      link: "https://mowgligit.github.io/website-for-hotel/",
+      link: "https://mowgligit.github.io/hotel-booking-webApp/",
       description:
         "Welcome to our hotel booking page, where you can explore detailed descriptions of our accommodations and check real-time weather updates for your destination. Our user-friendly interface provides everything you need to make an informed decision, from hotel amenities to climate conditions.",
-      githubRepo: "https://github.com/MowgliGit/website-for-hotel",
+      githubRepo: "https://github.com/MowgliGit/hotel-booking-webApp",
       skills: ["Html", "Css", "React"],
     },
     {
@@ -139,7 +139,7 @@ const ProjectDetails = () => {
       link: "https://website-for-healty-meal.netlify.app/",
       description:
         "Built with Bootstrap, it ensures a clean, modern, and fully responsive experience across all devices. Key Features: Image slider or visually engaging slider featuring high quality images of healthy meals. Interactive gallery showcasing a variety of meal options. Clear and descriptive sections, well organized content sections that highlight meal benefits, ingredients, and nutritional facts.",
-      githubRepo: "https://github.com/MowgliGit/website-for-healty-meal",
+      githubRepo: "https://mowgligit.github.io/website-for-healty-meal/",
       skills: ["Css", "Bootstrap", "JavaScript"],
     },
     {
@@ -181,7 +181,7 @@ const ProjectDetails = () => {
       title: "Blog",
       category: "Bootstrap",
       image: "blog.png",
-      link: "https://website-blogr.netlify.app/",
+      link: "https://website-blog-page.netlify.app/",
       description:
         "A responsive Bootstrap  website for a company blog, featuring a gallery, video content, and interactive cards with pricing details. The site also includes a contact form, offering a seamless user experience across both mobile and desktop devices.",
       githubRepo: "https://github.com/MowgliGit/website-blog",
@@ -205,7 +205,7 @@ const ProjectDetails = () => {
       title: "Mountain Website",
       category: "HTML&CSS",
       image: "mountain.png",
-      link: "https://websiteformountain.netlify.app/",
+      link: "https://website-for-mountain.netlify.app/",
       description:
         "A responsive website built with HTML&CSS, featuring a gallery and detailed information about mountain events. The clean design ensures an optimal viewing experience across all devices.",
       githubRepo: "https://github.com/MowgliGit/Website-for-mountain",
