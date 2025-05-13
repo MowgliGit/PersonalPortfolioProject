@@ -139,7 +139,7 @@ const ProjectDetails = () => {
       link: "https://website-for-healty-meal.netlify.app/",
       description:
         "Built with Bootstrap, it ensures a clean, modern, and fully responsive experience across all devices. Key Features: Image slider or visually engaging slider featuring high quality images of healthy meals. Interactive gallery showcasing a variety of meal options. Clear and descriptive sections, well organized content sections that highlight meal benefits, ingredients, and nutritional facts.",
-      githubRepo: "https://mowgligit.github.io/website-for-healty-meal/",
+      githubRepo: "https://github.com/MowgliGit/website-for-healty-meal",
       skills: ["Css", "Bootstrap", "JavaScript"],
     },
     {
