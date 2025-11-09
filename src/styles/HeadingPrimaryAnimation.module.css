@@ -1,10 +1,11 @@
 .header {
   height: 95vh;
   width: 100%;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
-      rgba(3, 26, 49, 0.614),
-      rgba(3, 26, 49, 0.501)
+      rgba(1, 14, 28, 0.814),
+      rgba(3, 26, 49, 0.801)
     ),
     url(../../public/images/home.png);
   background-repeat: no-repeat;
