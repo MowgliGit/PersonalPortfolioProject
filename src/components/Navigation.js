@@ -39,7 +39,9 @@ export default function Navigation() {
   return (
     <div className={styles.navigation}>
       <div className={styles.logoBox}>
-        <h6 className={styles.logo}>Mowgli</h6>
+        <Link to="/">
+          <h6 className={styles.logo}>Mowgli</h6>
+        </Link>
       </div>
       {isMenuVisible && (
         <nav
@@ -86,17 +88,18 @@ export default function Navigation() {
       )}
 
       <div>
-        {!isMenuVisible && (
-          <button className={styles.menuBox} onClick={toggleMenu}>
-            <ion-icon name="menu" className={styles.menuBtn}></ion-icon>
-          </button>
-        )}
-
-        {isMenuVisible && (
-          <button className={styles.menuBox} onClick={toggleMenu}>
-            <ion-icon name="close" className={styles.closeBtn}></ion-icon>
-          </button>
-        )}
+        <button
+          className={styles.menuBox}
+          aria-expanded={isMenuVisible}
+          aria-label={isMenuVisible ? "Close menu" : "Open menu"}
+          onClick={toggleMenu}
+        >
+          <span className={styles.burger}>
+            <span className={`${styles.bar} ${styles.bar1}`} />
+            <span className={`${styles.bar} ${styles.bar2}`} />
+            <span className={`${styles.bar} ${styles.bar3}`} />
+          </span>
+        </button>
       </div>
     </div>
   );

@@ -7,6 +7,39 @@ const ProjectDetails = () => {
   const projectsData = [
     {
       id: 1,
+      title: "Aswagandha",
+      category: "JavaScript",
+      image: "Ashwagandha.png",
+      link: "https://biobluehealth.com/",
+      description:
+        "Built a fully responsive marketing website for a natural Ashwagandha supplement using HTML, CSS, and JavaScript. Includes pricing cards, “Why Us” section, testimonials, FAQ, and a clear “How It Works” flow — all optimized for fast performance and conversions.",
+      githubRepo: "https://github.com/MowgliGit/-Website-for-Ashwagandha-s",
+      skills: ["Html", "Css", "JavaScript"],
+    },
+    {
+      id: 2,
+      title: "Methylene Blue",
+      category: "JavaScript",
+      image: "MethyleneBlue.png",
+      link: "https://methyleneblue.site/",
+      description:
+        "Developed a clean, responsive landing page for a Methylene Blue supplement using HTML, CSS, and JavaScript. Features pricing cards, “Why Us” section, testimonials, FAQ, and a clear “How It Works” layout — focused on credibility, performance, and user-friendly design.",
+      githubRepo: "https://github.com/MowgliGit/Methylene-Blue-CartPanda",
+      skills: ["Html", "Css", "JavaScript"],
+    },
+    {
+      id: 3,
+      title: "ThankYou Page",
+      category: "JavaScript",
+      image: "ThankYouPage.png",
+      link: "https://thankyoupageclickbank.netlify.app/",
+      description:
+        "Created a professional order confirmation page for supplement purchases using HTML, CSS, and JavaScript. Displays clear confirmation details, customer support info, and disclaimers — fully responsive and styled to match the main brand’s design for a smooth post-purchase experience.",
+      githubRepo: "https://github.com/MowgliGit/ThankYouPage",
+      skills: ["Html", "Css", "JavaScript"],
+    },
+    {
+      id: 4,
       title: "Spase Tourism",
       category: "React",
       image: "space.png",
@@ -17,7 +50,7 @@ const ProjectDetails = () => {
       skills: ["Html", "Css", "React"],
     },
     {
-      id: 2,
+      id: 5,
       title: "Nonprofit Organization",
       category: "React",
       image: "charito.png",
@@ -28,7 +61,7 @@ const ProjectDetails = () => {
       skills: ["Html", "Css", "React"],
     },
     {
-      id: 3,
+      id: 6,
       title: "E commerce",
       category: "React",
       image: "ecommerce.png",
@@ -40,7 +73,7 @@ const ProjectDetails = () => {
     },
 
     {
-      id: 4,
+      id: 7,
       title: "Pouffe Stool",
       category: "JavaScript",
       image: "rattanchair.png",
@@ -52,7 +85,7 @@ const ProjectDetails = () => {
       skills: ["Html", "Css", "JavaScript"],
     },
     {
-      id: 5,
+      id: 8,
       title: "Soy Candles",
       category: "JavaScript",
       image: "soycandel.png",
@@ -64,7 +97,7 @@ const ProjectDetails = () => {
       skills: ["Html", "Css", "JavaScript"],
     },
     {
-      id: 6,
+      id: 9,
       title: "Raw Meal",
       category: "JavaScript",
       image: "raw.png",
@@ -75,7 +108,7 @@ const ProjectDetails = () => {
       skills: ["Html", "Css", "JavaScript"],
     },
     {
-      id: 7,
+      id: 10,
       title: "Landing page",
       category: "React",
       image: "bloglanding.png",
@@ -86,7 +119,7 @@ const ProjectDetails = () => {
       skills: ["Html", "Css", "React"],
     },
     {
-      id: 8,
+      id: 11,
       title: "Booking App",
       category: "React",
       image: "hotel.png",
@@ -97,7 +130,7 @@ const ProjectDetails = () => {
       skills: ["Html", "Css", "React"],
     },
     {
-      id: 9,
+      id: 12,
       title: "Book Web App",
       category: "React",
       image: "book.png",
@@ -108,7 +141,7 @@ const ProjectDetails = () => {
       skills: ["Html", "Css", "React"],
     },
     {
-      id: 10,
+      id: 13,
       title: "Natural Deodorant",
       category: "Bootstrap",
       image: "antiperspirant.png",
@@ -120,7 +153,7 @@ const ProjectDetails = () => {
       skills: ["Css", "Bootstrap", "JavaScript"],
     },
     {
-      id: 11,
+      id: 14,
       title: "Culinary Herbs",
       category: "Bootstrap",
       image: "herbs.png",
@@ -132,7 +165,7 @@ const ProjectDetails = () => {
     },
 
     {
-      id: 12,
+      id: 15,
       title: "Healty Meal",
       category: "Bootstrap",
       image: "meal.png",
@@ -143,7 +176,7 @@ const ProjectDetails = () => {
       skills: ["Css", "Bootstrap", "JavaScript"],
     },
     {
-      id: 13,
+      id: 16,
       title: "Snapfolio",
       category: "Bootstrap",
       image: "photographer.png",
@@ -154,7 +187,7 @@ const ProjectDetails = () => {
       skills: ["Css", "Bootstrap", "JavaScript"],
     },
     {
-      id: 14,
+      id: 17,
       title: "Skin Care",
       category: "Bootstrap",
       image: "skincare.png",
@@ -166,7 +199,7 @@ const ProjectDetails = () => {
     },
 
     {
-      id: 15,
+      id: 18,
       title: "Animal Shelter",
       category: "Bootstrap",
       image: "shelter.png",
@@ -177,7 +210,7 @@ const ProjectDetails = () => {
       skills: ["Css", "Bootstrap", "JavaScript"],
     },
     {
-      id: 16,
+      id: 19,
       title: "Blog",
       category: "Bootstrap",
       image: "blog.png",
@@ -189,7 +222,7 @@ const ProjectDetails = () => {
     },
 
     {
-      id: 17,
+      id: 20,
       title: "Handmade Soap",
       category: "HTML&CSS",
       image: "soap.png",
@@ -201,7 +234,7 @@ const ProjectDetails = () => {
     },
 
     {
-      id: 18,
+      id: 21,
       title: "Mountain Website",
       category: "HTML&CSS",
       image: "mountain.png",

@@ -16,6 +16,7 @@
   top: 3.2rem;
   left: 3.2rem;
   z-index: 999; /* Make sure it stays above the menu */
+  cursor: pointer;
 }
 .logoBox {
   z-index: 99999;
@@ -139,4 +140,54 @@
 .navIcon:hover {
   color: #f8f9fa;
   transform: (-5px);
+}
+/*  */
+.burger {
+  display: inline-block;
+  width: 3.2rem;
+  height: 3.2rem;
+  position: relative;
+}
+
+.bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: currentColor;
+  border-radius: 2px;
+  transform-origin: 50% 50%;
+  transition:
+    transform 320ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 220ms cubic-bezier(0.4, 0, 0.2, 1),
+    width 220ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bar1 {
+  top: 8px;
+}
+.bar2 {
+  top: 15px;
+}
+.bar3 {
+  top: 22px;
+}
+
+.menuBox:hover .burger {
+  transform: scale(1.04);
+  transition: transform 160ms ease;
+}
+
+/* Morph to X when menu is open */
+.menuBox[aria-expanded="true"] .bar1 {
+  transform: translateY(7px) rotate(45deg);
+  transition-delay: 60ms;
+}
+.menuBox[aria-expanded="true"] .bar2 {
+  opacity: 0;
+  transform: scaleX(0.6);
+}
+.menuBox[aria-expanded="true"] .bar3 {
+  transform: translateY(-7px) rotate(-45deg);
+  transition-delay: 60ms;
 }
