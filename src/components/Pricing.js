@@ -183,10 +183,8 @@ const Pricing = ({ isMenuVisible, toggleMenu }) => {
             </p>
           </div>
         </div>
-
         <PopupWindow />
       </section>
-
       <Footer />
     </>
   );

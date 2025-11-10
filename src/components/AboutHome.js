@@ -37,11 +37,8 @@ export default function AboutMe({ isMenuVisible, toggleMenu }) {
             </p>
           </div>
           <div className={styles.aboutImgBox}>
-            {/* <div className={styles.aboutFlotText}>
-              <span className={styles.number}>3</span>
-            </div> */}
             <img
-              src={`${process.env.PUBLIC_URL}/images/aboutMe.webp`}
+              src={`${process.env.PUBLIC_URL}/images/ChatGpt.png`}
               className={styles.aboutMeImg}
               alt="aboutMeImg"
             />

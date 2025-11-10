@@ -1,11 +1,7 @@
 .sectionAbout {
   height: 95vh;
   background-image:
-    linear-gradient(
-      to right bottom,
-      rgba(1, 14, 28, 0.814),
-      rgba(3, 26, 49, 0.801)
-    ),
+    linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url(../../public/images/about.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -38,7 +34,7 @@
   animation-timing-function: ease-in-out;
   backface-visibility: hidden;
   cursor: pointer;
-  background-image: linear-gradient(to right, #f8f9fa, #adb5bd);
+  background-image: linear-gradient(to right, #f8f9fa, #f1f3f5);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -92,7 +88,7 @@
   animation-timing-function: ease-in-out;
   backface-visibility: hidden;
   cursor: pointer;
-  background-image: linear-gradient(to right, #f8f9fa, #adb5bd);
+  background-image: linear-gradient(to right, #f8f9fa, #f1f3f5);
   -webkit-background-clip: text;
   color: transparent;
 }

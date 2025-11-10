@@ -69,7 +69,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  gap: 2rem;
+  gap: 2rem !important;
   transition: all 0.3s;
   animation-name: moveInRight;
   animation-duration: 2s;
@@ -80,18 +80,54 @@
 
 .contactBtns {
   display: flex;
+  flex-direction: column;
   gap: 1.2rem;
   cursor: pointer;
+}
+.backToTopBtn {
+  width: fit-content;
+  padding: 1rem 2rem;
+  background-color: #021120;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 500;
+  hyphens: auto;
+  color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 3rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.backToTopBtn:hover {
+  background-color: #042546;
+  transform: translateY(-2px) scale(1.05); /* Add scale for hover effect */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.footerNote {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 500;
+  hyphens: auto;
+  color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem !important;
 }
 .btnFooterLink {
   display: inline-block;
   cursor: pointer !important;
   transition: all 0.2s;
   color: #f8f9fa;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.6rem !important;
   width: fit-content;
   padding: 1rem 2rem;
   background-color: #021120;
@@ -99,7 +135,7 @@
   transition: all 0.3s;
   position: relative;
   z-index: 10;
-  border: 1px solid #031a31;
+  border: 1px solid #f8f9fa;
   display: flex;
   align-items: center;
 }

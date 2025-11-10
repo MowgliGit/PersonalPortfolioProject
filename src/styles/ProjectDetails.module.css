@@ -11,7 +11,7 @@
   margin: 8rem 0 8rem 0;
 }
 .headingTertiary {
-  background-image: linear-gradient(to right, #f8f9fa, #adb5bd);
+  background-image: linear-gradient(to right, #f8f9fa, #f1f3f5);
   -webkit-background-clip: text;
   color: transparent;
   font-size: 3.6rem;
@@ -95,7 +95,9 @@
   border-radius: 3rem;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
   border-bottom: 0.3s ease;
   position: relative;
   margin: 0 1px;

@@ -18,26 +18,26 @@ export default function Footer() {
           </div>
 
           <div className={styles.footerBtnLinks}>
-            <button className={`${styles.btnFooterLink}`}>
-              <i className={`fa-solid fa-envelope ${styles.navIcon}`}></i>
-              <span className={styles.footerLink}>
-                Contact after contract on Upwork
-              </span>
-            </button>
-
             <div className={styles.contactBtns}>
               <button className={styles.btnFooterLink}>
+                <i
+                  className={`fa-brands fa-square-upwork ${styles.navIcon}`}
+                ></i>
                 <a
                   href="https://www.upwork.com/freelancers/~01741f500be36f1cbe"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.footerLink}
                 >
-                  <i
-                    className={`fa-brands fa-square-upwork ${styles.navIcon}`}
-                  ></i>
                   Upwork
                 </a>
+              </button>
+              <button
+                className={styles.backToTopBtn}
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
+                <i className={`fa-solid fa-arrow-up ${styles.navIcon}`}></i>
+                Back to Top
               </button>
             </div>
           </div>

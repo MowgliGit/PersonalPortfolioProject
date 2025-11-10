@@ -46,7 +46,7 @@
   animation-timing-function: ease-in-out;
   backface-visibility: hidden;
   cursor: pointer;
-  background-image: linear-gradient(to right, #f8f9fa, #adb5bd);
+  background-image: linear-gradient(to right, #f8f9fa, #f1f3f5);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -92,7 +92,7 @@
   animation-timing-function: ease-in-out;
   backface-visibility: hidden;
   cursor: pointer;
-  background-image: linear-gradient(to right, #f8f9fa, #adb5bd);
+  background-image: linear-gradient(to right, #f8f9fa, #f1f3f5);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -112,7 +112,7 @@
   animation-timing-function: ease-in-out;
   backface-visibility: hidden;
   animation-fill-mode: backwards;
-  background-image: linear-gradient(to right, #f8f9fa, #adb5bd);
+  background-image: linear-gradient(to right, #f8f9fa, #f1f3f5);
   -webkit-background-clip: text;
   color: transparent;
 }
