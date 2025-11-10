@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/PersonalPortfolioProject/static/css/main.9ebac676.css",
+    "main.js": "/PersonalPortfolioProject/static/js/main.095db23f.js",
+    "static/js/738.2d18efd2.chunk.js": "/PersonalPortfolioProject/static/js/738.2d18efd2.chunk.js",
+    "static/js/907.7fb6c566.chunk.js": "/PersonalPortfolioProject/static/js/907.7fb6c566.chunk.js",
+    "static/js/923.794e49b6.chunk.js": "/PersonalPortfolioProject/static/js/923.794e49b6.chunk.js",
+    "static/js/627.821e1188.chunk.js": "/PersonalPortfolioProject/static/js/627.821e1188.chunk.js",
+    "static/js/653.2b9c7d01.chunk.js": "/PersonalPortfolioProject/static/js/653.2b9c7d01.chunk.js",
+    "static/js/488.0dd26581.chunk.js": "/PersonalPortfolioProject/static/js/488.0dd26581.chunk.js",
+    "static/media/projects.jpg": "/PersonalPortfolioProject/static/media/projects.5a562bc2c242d0eca035.jpg",
+    "static/media/home.png": "/PersonalPortfolioProject/static/media/home.42f9404c582fe1c87eff.png",
+    "static/media/project.jpg": "/PersonalPortfolioProject/static/media/project.d2bfecf40b5654280980.jpg",
+    "static/media/vision.webp": "/PersonalPortfolioProject/static/media/vision.e7bb54fc3ff68c3bdce4.webp",
+    "static/media/Contact.avif": "/PersonalPortfolioProject/static/media/Contact.47b317f86bcb714c78d5.avif",
+    "static/media/about.webp": "/PersonalPortfolioProject/static/media/about.5b0c5a49285434d6abb0.webp",
+    "static/media/prices.webp": "/PersonalPortfolioProject/static/media/prices.c0fdf354d5715f0c6d83.webp",
+    "index.html": "/PersonalPortfolioProject/index.html",
+    "main.9ebac676.css.map": "/PersonalPortfolioProject/static/css/main.9ebac676.css.map",
+    "main.095db23f.js.map": "/PersonalPortfolioProject/static/js/main.095db23f.js.map",
+    "738.2d18efd2.chunk.js.map": "/PersonalPortfolioProject/static/js/738.2d18efd2.chunk.js.map",
+    "907.7fb6c566.chunk.js.map": "/PersonalPortfolioProject/static/js/907.7fb6c566.chunk.js.map",
+    "923.794e49b6.chunk.js.map": "/PersonalPortfolioProject/static/js/923.794e49b6.chunk.js.map",
+    "627.821e1188.chunk.js.map": "/PersonalPortfolioProject/static/js/627.821e1188.chunk.js.map",
+    "653.2b9c7d01.chunk.js.map": "/PersonalPortfolioProject/static/js/653.2b9c7d01.chunk.js.map",
+    "488.0dd26581.chunk.js.map": "/PersonalPortfolioProject/static/js/488.0dd26581.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ebac676.css",
+    "static/js/main.095db23f.js"
+  ]
+}
