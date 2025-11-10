@@ -18,7 +18,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "postbuild": "node -e \"require('fs').copyFileSync('build/index.html','build/404.html')\"",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -a",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
