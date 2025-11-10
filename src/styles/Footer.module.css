@@ -81,12 +81,14 @@
 .contactBtns {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
   cursor: pointer;
 }
 .backToTopBtn {
   width: fit-content;
-  padding: 1rem 2rem;
+  padding: 0.6rem 0.8rem;
   background-color: #021120;
   font-size: 1.6rem;
   line-height: 1.6;
@@ -107,17 +109,6 @@
   transform: translateY(-2px) scale(1.05); /* Add scale for hover effect */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.footerNote {
-  font-size: 1.6rem;
-  line-height: 1.6;
-  font-weight: 500;
-  hyphens: auto;
-  color: #f8f9fa;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.8rem !important;
-}
 .btnFooterLink {
   display: inline-block;
   cursor: pointer !important;
@@ -129,7 +120,7 @@
   justify-content: center;
   gap: 0.6rem !important;
   width: fit-content;
-  padding: 1rem 2rem;
+  padding: 0.6rem 0.8rem;
   background-color: #021120;
   border-radius: 3rem;
   transition: all 0.3s;
@@ -231,6 +222,9 @@
   .contactBtns {
     display: flex;
     gap: 0.8rem;
+  }
+  .backToTopBtn {
+    margin-top: 0.8rem;
   }
 }
 /* Bellow 400px */
